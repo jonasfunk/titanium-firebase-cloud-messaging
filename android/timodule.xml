@@ -16,8 +16,8 @@
 		</manifest>
 	</android>
 	<modules>
-		<!-- Require Firebase Core (https://github.com/hansemannn/titanium-firebase-core) -->
-		<module>firebase.core</module>
+		<!-- Require Firebase Core not needed anymore. Its included with analytics 
+		<module>firebase.core</module>-->
 
 		<!-- Require Ti.PlayServices (https://github.com/appcelerator-modules/ti.playservices) -->
 		<module platform="android">ti.playservices</module>
